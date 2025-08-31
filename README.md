@@ -58,7 +58,7 @@ Modify the file paths in scripts to match your dataset locations.
 
 ### 1. Price Prediction Only
 ```markdown
-```bash
+
 python XGBoost.py
 python random\ forest.py
 python DNN(MDP).py
@@ -71,13 +71,15 @@ Figures:
 Actual vs Predicted scatter plot
 
 Price prediction trends over time
-  
+  ```
 ---
 
 ### 2. Full Optimization (Price Prediction + MDP/Q-learning)
 
+```
 python XGBoost(MDP).py
 python DNN_model.py
+```
 ---
 Outputs:
 
@@ -89,7 +91,7 @@ Price Gain(%) vs Episode plots
 
 Simulation logs (optional)
 
-📈 Example Results
+#### 📈 Example Results
 Price Forecasting (XGBoost/DNN/RF)
 
 R² typically between 0.85–0.95 depending on features
@@ -100,13 +102,13 @@ Q-learning agent converges to policies that reduce total charging cost
 
 Up to 20–40% Price Gain compared to the fixed charging strategy
 
-⚙️ Dependencies
+#### ⚙️ Dependencies
 Python 3.8+
 
 Required packages:
 
 pip install numpy pandas matplotlib scikit-learn xgboost tensorflow
-🔮 Future Improvements
+#### 🔮 Future Improvements
 Generalize predictor module to support plug-and-play (XGBoost / RF / DNN / others).
 
 Replace hardcoded paths with argparse or YAML config.
@@ -115,7 +117,7 @@ Add multi-station, queueing, and power-capacity constraints.
 
 Improve reproducibility: random seed control, unified logging, and saved models.
 
-📝 Citation
+#### 📝 Citation
 If you use this work, please cite or acknowledge:
 
 Ziyu Zheng, Optimization of Intelligent Charging Strategy for Electric Vehicles based on Machine Learning, Reinforcement Learning, and Markov Decision Process, University of Sussex, 2024.
