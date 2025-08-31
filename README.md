@@ -70,7 +70,7 @@ Figures:
 Actual vs Predicted scatter plot
 
 Price prediction trends over time
-
+  
 ---
 
 ---
