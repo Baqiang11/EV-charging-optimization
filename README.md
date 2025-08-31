@@ -57,6 +57,7 @@ Modify the file paths in scripts to match your dataset locations.
 ## 🚀 How to Run
 
 ### 1. Price Prediction Only
+```markdown
 ```bash
 python XGBoost.py
 python random\ forest.py
@@ -72,7 +73,7 @@ Actual vs Predicted scatter plot
 Price prediction trends over time
   
 ---
-```bash
+
 ### 2. Full Optimization (Price Prediction + MDP/Q-learning)
 
 python XGBoost(MDP).py
