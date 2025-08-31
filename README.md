@@ -7,17 +7,20 @@ The system demonstrates how agent-based optimization can minimize EV charging co
 
 ## 📌 Project Structure
 
-.
 ├── XGBoost.py # Electricity price forecasting with XGBoost
+
 ├── random forest.py # Electricity price forecasting with Random Forest
+
 ├── DNN(MDP).py # Electricity price forecasting with Deep Neural Network (DNN) only
+
 ├── DNN_model.py # Full pipeline: DNN forecasting + MDP/Q-learning optimization
+
 ├── XGBoost(MDP).py # XGBoost forecasting + MDP/Q-learning optimization
-
-
 
 ---
 
+
+---
 ## ⚡ Features
 
 - **Price Forecasting Models**
@@ -36,6 +39,8 @@ The system demonstrates how agent-based optimization can minimize EV charging co
 
 ---
 
+
+---
 ## 📊 Data Requirements
 
 - **Electricity Price Data**
@@ -52,6 +57,8 @@ Modify the file paths in scripts to match your dataset locations.
 
 ---
 
+
+---
 ## 🚀 How to Run
 
 ### 1. Price Prediction Only
@@ -69,10 +76,14 @@ Actual vs Predicted scatter plot
 
 Price prediction trends over time
 
+---
+
+---
 2. Full Optimization (Price Prediction + MDP/Q-learning)
 
 python XGBoost(MDP).py
 python DNN_model.py
+---
 Outputs:
 
 Q-learning vs Fixed Strategy comparison
