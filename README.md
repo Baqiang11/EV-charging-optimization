@@ -74,7 +74,7 @@ Price prediction trends over time
 ---
 
 ---
-###2. Full Optimization (Price Prediction + MDP/Q-learning)
+### 2. Full Optimization (Price Prediction + MDP/Q-learning)
 
 python XGBoost(MDP).py
 python DNN_model.py
