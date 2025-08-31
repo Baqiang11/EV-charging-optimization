@@ -19,8 +19,6 @@ The system demonstrates how agent-based optimization can minimize EV charging co
 
 ---
 
-
----
 ## ⚡ Features
 
 - **Price Forecasting Models**
@@ -36,8 +34,6 @@ The system demonstrates how agent-based optimization can minimize EV charging co
   - Reward: Combines SoC level, driving distance, and electricity price
   - Learning: Q-learning with ε-greedy exploration
   - Baseline: Fixed strategy (always charge when not full)
-
----
 
 
 ---
@@ -55,7 +51,6 @@ The system demonstrates how agent-based optimization can minimize EV charging co
 
 Modify the file paths in scripts to match your dataset locations.
 
----
 
 
 ---
@@ -79,7 +74,7 @@ Price prediction trends over time
 ---
 
 ---
-2. Full Optimization (Price Prediction + MDP/Q-learning)
+###2. Full Optimization (Price Prediction + MDP/Q-learning)
 
 python XGBoost(MDP).py
 python DNN_model.py
