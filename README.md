@@ -72,8 +72,7 @@ Actual vs Predicted scatter plot
 Price prediction trends over time
   
 ---
-
----
+```bash
 ### 2. Full Optimization (Price Prediction + MDP/Q-learning)
 
 python XGBoost(MDP).py
